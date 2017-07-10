@@ -1,0 +1,85 @@
+/*--------Service------------*/
+#service-container-1 {
+    background-color: #68a1b6;
+    display: flex;
+    align-items:center;
+}
+.text-service-container {
+    flex: 4;
+    color: #fff;
+}
+.text-service-container>h3 {
+    background-color: #f77b55;
+    font-size: 34px;
+    display: inline-block;
+    padding: 10px 15px 10px 45px;
+    margin: 30px 0 20px 0;
+}
+.text-service-container>p {
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 45px;
+    margin: auto;
+}
+
+.img-service-container {
+    width: 90%;
+    padding: 20px; 
+    flex: 3;
+}
+
+.button-service-1 {
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+    margin: 25px 10px 25px 40px; 
+    border: 4px solid #ffdb79;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffdb79;
+    font-size: 22px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+.button-service-1:hover {
+    background-color: #ffdb79;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 1045px){
+    .text-service-container>h3 {font-size: 30px;}
+    .text-service-container>p {font-size: 19px;}
+    .button-service-1 {width: 85%; font-size: 19px;}
+}
+@media screen and (max-width: 930px){
+   #service-container-1 {flex-direction: column-reverse;}
+   .text-service-container>h3 {
+       padding: 10px 0; 
+       margin: 25px;
+       display: block;
+       text-align: center;
+   }
+   .text-service-container>p {padding: 10px 25px;}
+   .img-service-container {width: 50%;}
+   .button-service-1 {display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 50%;  }
+}
+@media screen and (max-width: 670px) {
+   .button-service-1 {width: 75%;}
+}
+@media screen and (max-width: 490px){
+   .text-service-container>h3 {font-size: 24px;}
+   .text-service-container>p {font-size: 16px;}
+   .button-service-1  {font-size: 16px; border: 3px solid #ffdb79; width: 85%;}
+   .img-service-container {width: 75%;}
+}
+
+@media screen and (max-width: 390px){
+    .text-service-container>h3 {font-size: 19px;margin: auto;}
+    .text-service-container>p {font-size: 14px;}
+}
+
+
